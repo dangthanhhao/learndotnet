@@ -5,7 +5,7 @@ namespace learndotnetVS.Data
 {
     public interface ICommanderRepo
     {
-        public IEnumerable<Command> GetAppCommands();
+        public IEnumerable<Command> GetAllCommands();
 
         public Command GetCommandById(int id);
     }
